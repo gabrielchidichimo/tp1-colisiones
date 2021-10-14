@@ -10,11 +10,11 @@ int main(){
 
 	RenderWindow ventana(VideoMode(800, 600), "tp1"); //creacion de pantalla (videomode(resolucion) , "titulo"//
 	
-	RectangleShape shape(Vector2f(50.f, 100.f)); //tipo de forma/cuerpo y su tamaño//
+	RectangleShape shape(Vector2f(50.f, 100.f)); //tipo de forma/cuerpo y su tamaÃ±o//
 	shape.setPosition(51.f, 0.f);
 	shape.setFillColor(Color::Green); //color de la forma/ cuepo//
 	
-	RectangleShape forma(Vector2f(50.f, 100.f)); //tipo de forma/cuerpo y su tamaño//
+	RectangleShape forma(Vector2f(50.f, 100.f)); //tipo de forma/cuerpo y su tamaÃ±o//
 	forma.setFillColor(Color::Red); //color de la forma/ cuepo//
 	
 	ventana.setFramerateLimit(30); //setea los fps de la ventana//
@@ -34,7 +34,7 @@ int main(){
 	
 	while (ventana.isOpen()) //corre el programa mientras la ventana esta abierta
     {
-    	// verifica todos los eventos de la ventana que se activaron desde la última iteración del ciclo
+    	// verifica todos los eventos de la ventana que se activaron desde la Ãºltima iteraciÃ³n del ciclo
 	    Event event;
 	    while (ventana.pollEvent(event))
 	    {
